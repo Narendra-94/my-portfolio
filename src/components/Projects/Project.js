@@ -147,10 +147,10 @@ export const Project = () => {
                   <div>
                     <p>{item.name}</p>
                     <button>
-                      <a href={item.github_link}>Live Project</a>
+                      <a href={item.deploy_link}>Live Project</a>
                     </button>
                     <button>
-                      <a href={item.deploy_link}>View Source </a>
+                      <a href={item.github_link}>View Source </a>
                     </button>
                   </div>
                 )}

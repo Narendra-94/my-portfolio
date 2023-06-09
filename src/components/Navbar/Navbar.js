@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaReact, FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import "./Navbar.css";
 
@@ -10,12 +10,10 @@ const data = [
     label: "HOME",
     to: "/",
   },
-
   {
     label: "ABOUT ME",
     to: "/about",
   },
-
   {
     label: "PROJECTS",
     to: "/project",
@@ -27,6 +25,9 @@ export const Navbar = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
+  const location = useLocation();
+
   return (
     <div>
       <nav className="navbar">
@@ -37,7 +38,12 @@ export const Navbar = () => {
         </div>
         <ul className={`navbar-container-menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, index) => (
-            <li key={index} className="navbar-container-menu-item">
+            <li
+              key={index}
+              className={`navbar-container-menu-item ${
+                location.pathname === item.to ? "active" : ""
+              }`}
+            >
               <Link className="navbar-container-menu-item-links" to={item.to}>
                 {item.label}
               </Link>

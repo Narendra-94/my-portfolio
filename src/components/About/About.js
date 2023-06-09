@@ -12,7 +12,7 @@ import { TbBrandTypescript } from "react-icons/tb";
 const personDetails = [
   {
     label: "Name",
-    value: "John Doe",
+    value: "Narendra Chordiya",
   },
   {
     label: "Age",

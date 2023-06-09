@@ -104,6 +104,12 @@
   font-weight: 500;
 }
 
+.overlay div button a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
 @keyframes typingEffect {
   from {
     width: 0;

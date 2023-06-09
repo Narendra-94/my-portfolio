@@ -146,8 +146,12 @@ export const Project = () => {
                 {index === hoverValue && (
                   <div>
                     <p>{item.name}</p>
-                    <button>Live Project</button>
-                    <button>View Source</button>
+                    <button>
+                      <a href={item.github_link}>Live Project</a>
+                    </button>
+                    <button>
+                      <a href={item.deploy_link}>View Source </a>
+                    </button>
                   </div>
                 )}
               </div>

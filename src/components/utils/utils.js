@@ -1,4 +1,4 @@
-export default utils = {
+export const utils = {
   background: {
     color: {
       value: "#1d1d1d",

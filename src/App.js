@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { Project } from "./components/Projects/Project";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import utils from "./components/utils/utils";
+import { utils } from "./components/utils/utils";
 import { Skills } from "./components/Skills/Skills";
 import { Contact } from "./components/Contact/Contact";
 

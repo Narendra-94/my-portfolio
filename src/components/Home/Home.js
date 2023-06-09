@@ -9,7 +9,7 @@ export const Home = () => {
         <h1>
           Hello I'm Narendra
           <br />
-          Front-end developer
+          Front end developer
         </h1>
       </div>
       <Animate

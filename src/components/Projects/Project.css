@@ -95,7 +95,7 @@
 .overlay div button {
   cursor: pointer;
   margin-top: 16px;
-  padding: 10px 70px;
+  padding: 10px 0px;
   font-size: 2rem;
   background: transparent;
   color: #000000;
@@ -104,10 +104,20 @@
   font-weight: 500;
 }
 
+.overlay div button:hover {
+  background-color: #000000;
+  color: var(--yellow-theme-main-color);
+}
+
 .overlay div button a {
   text-decoration: none;
   color: #000000;
   font-weight: 500;
+  padding: 10px 70px;
+}
+
+.overlay div button a:hover {
+  color: var(--yellow-theme-main-color);
 }
 
 @keyframes typingEffect {

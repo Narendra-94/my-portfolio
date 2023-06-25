@@ -10,6 +10,7 @@ import Cash from "../../images/Cash-Manager.png";
 import BananaTalks from "../../images/banana-talks.png";
 import Fruits from "../../images/fun-with-fruits.png";
 import Me from "../../images/you-know-me.png";
+import SocialMedia from "../../images/Social-media-landing.png";
 
 import "./Project.css";
 import { useState } from "react";
@@ -17,10 +18,17 @@ import { useState } from "react";
 const projectData = [
   {
     id: 2,
-    name: "Ecommerce",
+    name: "GoResto",
     image: FoodDelivery,
     github_link: "https://github.com/Narendra-94/food-delivery-website",
     deploy_link: "https://goresto-food-delivery-app.netlify.app/",
+  },
+  {
+    id: 2,
+    name: "SocialMedia",
+    image: SocialMedia,
+    github_link: "https://github.com/Narendra-94/social-media",
+    deploy_link: "https://chalchitra-social-media-app.netlify.app/",
   },
   {
     id: 3,
@@ -98,7 +106,7 @@ const filterData = [
 ];
 
 export const Project = () => {
-  const [filteredValue, setFilteredValue] = useState(1);
+  const [filteredValue, setFilteredValue] = useState(2);
   const [hoverValue, setHoverValue] = useState(null);
 
   const handleFilter = (currentId) => {

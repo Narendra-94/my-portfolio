@@ -15,8 +15,8 @@ const personDetails = [
     value: "Narendra Chordiya",
   },
   {
-    label: "Age",
-    value: "24",
+    label: "Experience",
+    value: "1.5 years",
   },
   {
     label: "Address",
@@ -48,7 +48,7 @@ export const About = () => {
             start={{ transform: "translateX(-900px)" }}
             end={{ transform: "translateX(0px)" }}
           >
-            <h3>Front end Developer</h3>
+            <h3>Frontend Developer</h3>
             <p> {jobSummary}</p>
           </Animate>
 

@@ -25,7 +25,7 @@ const projectData = [
   },
   {
     id: 2,
-    name: "SocialMedia",
+    name: "Chalchitra",
     image: SocialMedia,
     github_link: "https://github.com/Narendra-94/social-media",
     deploy_link: "https://chalchitra-social-media-app.netlify.app/",

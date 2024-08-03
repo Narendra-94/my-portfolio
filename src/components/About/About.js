@@ -16,7 +16,7 @@ const personDetails = [
   },
   {
     label: "Experience",
-    value: "1.5 years",
+    value: "2+ years",
   },
   {
     label: "Address",
